@@ -1,0 +1,87 @@
+@media (max-width: 600px) {
+    
+.navright
+{
+    display: none;
+}
+.hambur{
+    display: block;
+}
+
+    
+.home>h1{
+    font-size: 45px;
+}    
+.home > p{
+    font-size: 10px;
+}
+.subhead{
+    flex-direction: column;
+    height: 100%;
+    padding: 0px 0rem;
+
+}
+.about{
+    width: 90%;
+    padding: 20px 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+.who{
+    position: relative;
+    margin: 0px auto ;
+
+    margin-bottom: 50px;
+    padding: 4px 5px;
+    left: 1rem;
+
+}
+.secbrand{
+ width: 90%;
+ align-items: center;
+}
+.blogo{
+justify-content: center;    
+}
+.foright >h3{
+    font-size: 1.2rem;
+}
+.foright >p{
+    font-size: .7rem;
+}
+
+.fooleft{
+    margin-right: 0rem;
+}
+.fooleft >h3{
+    font-size: 1rem;
+}
+.flink>p{
+    margin-top: 0rem;
+}
+.flink>p>a{
+    font-size: small;
+  
+}
+.form{
+    height: 100%;
+    width: 90%;
+    padding: 35px 65px;
+}
+
+.slider{
+    position: relative;
+    width: 100vw;
+    height: 30vh;
+}
+.imag{
+    height: 500px;
+}
+
+.slidebutton{
+    padding: 0px 35 px;
+    display: flex;
+    justify-content: space-between;
+}
+}

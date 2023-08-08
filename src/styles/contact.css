@@ -1,0 +1,43 @@
+.contact{
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    height: 60%;
+    width: 40%;
+    padding: 35px 65px;
+    border-radius: 4px;
+    background: gainsboro;
+}
+.form>div{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.form>div>label{
+    font-size: larger;
+    margin-top:5px;
+}
+.form>div>input{
+    border: 2px solid rgb(244, 141, 141);
+    padding: 5px;
+    font-size: 1rem;
+}
+
+.form>div>textarea{
+    border: 2px solid rgb(244, 141, 141);
+    padding: 5px;
+    font-size: 1rem;
+}
+.form>div>button{
+    background: rgb(40, 40, 40);
+    margin: 5px 0px;
+    padding: 5px 0px;
+    color: white;
+    border: 2px solid rgb(249, 61, 61);
+    
+}

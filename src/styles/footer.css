@@ -1,0 +1,42 @@
+.footermain{
+    margin-top: 2rem;
+    padding: 2rem 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.foright >h3{
+    font-size: 2rem;
+    color: rgb(58, 58, 250);
+}
+.foright >p{
+    
+    margin-top: 0.5rem;
+    font-size: x-large;
+    padding: 0;
+    color: black;
+}
+.fooleft{
+    margin-right: 2rem;
+}
+.fooleft >h3{
+    font-weight: normal;
+    font-size: 2rem;
+}
+.flink{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flink>p{
+    margin-top: 0.3rem;
+
+}
+.flink>p>a{
+    color: black;
+    font-size: medium;
+  
+}
+.flink>p>a:hover{
+   color: blue;
+}

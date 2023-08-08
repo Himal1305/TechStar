@@ -1,0 +1,28 @@
+.services{
+    margin-top:55px;
+}
+.slider{
+    position: relative;
+    width: 100vw;
+    height: 90vh;
+    
+}
+.imag{
+    z-index: 10;
+    bottom:  155px;
+    position: absolute;
+}
+.slidebutton{
+    padding: 0px 35px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.btn1{
+    height: 50px;
+}
+
+.btn2{
+
+    height: 50px;
+}

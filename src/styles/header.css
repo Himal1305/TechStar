@@ -1,0 +1,34 @@
+nav{
+    height: 60px;
+    width: 100%;
+    padding: 15px 20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+   background-color: white;
+   z-index: 100;
+    
+    
+    /* background-color: blue; */
+}
+.navhead{
+    font-weight: bold;
+    font-size:1.5rem;
+}
+.navlinks{
+
+   margin: 0px 20px;
+   color: black;
+   font-size:medium;
+
+   transition: all .2s ;
+}
+.navlinks:hover{
+        color: blue;
+}
+
+
+.hambur{
+    display: none;
+}
